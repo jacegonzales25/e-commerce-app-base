@@ -13,16 +13,6 @@ export default function SetupPage() {
     }
   }, [isOpen, onOpen]);
   
-  return (
-    <div className="p-4">
-      Root Page
-      
-      
-      {/* <Modal title="test" description="Test Description" isOpen onClose={() => {}}>
-        Children
-      </Modal> */}
-      {/* <UserButton afterSignOutUrl="/auth/sign-in" /> */}
-    
-    </div>
-  )
+  // Setup page just for triggering Modals
+  return null;
 }
