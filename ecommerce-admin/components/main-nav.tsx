@@ -17,6 +17,13 @@ export function MainNav({
     const routes = [
         {   
             // Custom routing for specific stores
+            href: `/${params.storeId}/`,
+            label: 'Overview',
+            // Active route attribute
+            active: pathname === `/${params.storeId}/`,
+        },
+        {   
+            // Custom routing for specific stores
             href: `/${params.storeId}/settings`,
             label: 'Settings',
             // Active route attribute

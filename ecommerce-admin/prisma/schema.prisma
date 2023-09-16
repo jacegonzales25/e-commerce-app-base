@@ -18,5 +18,5 @@ model Store {
   userId    String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  
+  // TODO: onDelete products and categories
 }
