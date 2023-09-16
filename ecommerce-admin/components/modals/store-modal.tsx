@@ -8,7 +8,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 import { useStoreModal } from "@/app/hooks/use-store-modal"
-import { Modal } from "@/components/modal"
+import { Modal } from "@/components/modals/modal"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
