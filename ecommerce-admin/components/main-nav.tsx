@@ -24,6 +24,13 @@ export function MainNav({
         },
         {   
             // Custom routing for specific stores
+            href: `/${params.storeId}/billboards`,
+            label: 'Billboards',
+            // Active route attribute
+            active: pathname === `/${params.storeId}/billboard`,
+        },
+        {   
+            // Custom routing for specific stores
             href: `/${params.storeId}/settings`,
             label: 'Settings',
             // Active route attribute
